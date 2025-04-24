@@ -17,7 +17,7 @@ export function useWorkDuration(): string {
 
   useEffect(() => {
     // Start date - approximate date to reach ~1505 days
-    const startDate = new Date('2019-07-15T00:00:00-07:00');
+    const startDate = new Date('2020-04-01T00:00:00-07:00');
 
     const calculateDuration = () => {
       const now = new Date();

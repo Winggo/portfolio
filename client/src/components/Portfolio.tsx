@@ -41,7 +41,7 @@ const Portfolio = () => {
           <h1 className="text-2xl font-semibold mb-10">Hi, I'm Winggo.</h1>
           
           <p className="text-md mb-6">
-            I've been a developer for the last {workDuration}.
+            I've been developing software at startups and enterprise tech for {workDuration}.
           </p>
 
           <p className="text-md mb-6">
