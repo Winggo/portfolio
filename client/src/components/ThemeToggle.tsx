@@ -4,7 +4,7 @@ const ThemeToggle = () => {
   const { isDarkMode, toggleTheme } = useTheme();
 
   return (
-    <div className="flex justify-center mb-14">
+    <div className="flex mb-14">
       {!isDarkMode ? (
         <div 
           onClick={toggleTheme}
