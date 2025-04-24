@@ -7,17 +7,17 @@ const Portfolio = () => {
   
   const workHistory = [
     {
-      title: "NetApp",
+      title: <a href="https://netapp.com" target="_blank" rel="noopener noreferrer" className="hover:underline">NetApp</a>,
       description: "Software Engineer",
       period: "2024-2025"
     },
     {
-      title: "Scale AI",
+      title: <a href="https://scale.com" target="_blank" rel="noopener noreferrer" className="hover:underline">Scale AI</a>,
       description: "AI Training Engineer",
       period: "2024"
     },
     {
-      title: "Anvil",
+      title: <a href="https://useanvil.com" target="_blank" rel="noopener noreferrer" className="hover:underline">Anvil</a>,
       description: "Software Engineer",
       period: "2020-2023"
     },
