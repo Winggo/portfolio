@@ -8,7 +8,7 @@ const ThemeToggle = () => {
       {!isDarkMode ? (
         <div 
           onClick={toggleTheme}
-          className="theme-toggle w-4 h-4 bg-black rounded-full" 
+          className="theme-toggle w-5 h-5 bg-black rounded-full" 
           aria-label="Switch to dark mode"
         />
       ) : (
@@ -18,7 +18,7 @@ const ThemeToggle = () => {
           aria-label="Switch to light mode"
         >
           <svg 
-            className="w-4 h-4 text-white" 
+            className="w-5 h-5 text-white" 
             fill="white" 
             viewBox="0 0 24 24" 
             xmlns="http://www.w3.org/2000/svg"

@@ -33,7 +33,7 @@ const Portfolio = () => {
   return (
     <div className="container mx-auto max-w-2xl px-6 py-16 min-h-screen bg-[#FAFAFA] dark:bg-[#1A1A1A] text-[#333333] dark:text-[#FFFFFF]">
       <div className="flex items-start">
-        <div className="mr-20 pt-2">
+        <div className="mr-20 pt-1.5">
           <ThemeToggle />
         </div>
         
