@@ -18,11 +18,11 @@ const History = ({ title, entries }: HistoryProps) => {
       
       {entries.map((entry, index) => (
         <div key={index} className="history-entry">
-          <div className="text-md font-semibold">{entry.title}</div>
+          <div className="text-md font-medium">{entry.title}</div>
           <div className="text-md font-medium text-right">
             {entry.description}
             <br/>
-            <span className="font-normal text-[#6B6B6B] dark:text-[#A0A0A0]">{entry.period}</span>
+            <span className="font-light text-[#6B6B6B] dark:text-[#A0A0A0]">{entry.period}</span>
           </div>
         </div>
       ))}

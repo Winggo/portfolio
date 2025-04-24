@@ -31,13 +31,13 @@ const Portfolio = () => {
   ]
 
   return (
-    <div className="container mx-auto max-w-2xl px-6 py-20 min-h-screen bg-[#FAFAFA] dark:bg-[#1A1A1A] text-[#333333] dark:text-[#FFFFFF]">
-      <div className="flex items-start">
-        <div className="mr-20 pt-1.5">
+    <div className="container bg-[#FAFAFA] dark:bg-[#1C1C1C] text-[#1C1C1C] dark:text-[#FAFAFA]">
+      <div className="content">
+        <div className="theme-toggle-container">
           <ThemeToggle />
         </div>
         
-        <div className="page-section w-[65%]">
+        <div className="page-section">
           <h1 className="text-2xl font-semibold mb-10">Hi, I'm Winggo.</h1>
           
           <p className="text-md mb-6">

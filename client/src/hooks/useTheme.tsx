@@ -14,12 +14,12 @@ export const ThemeProvider = ({ children }: { children: ReactNode }) => {
   useEffect(() => {
     if (isDarkMode) {
       document.documentElement.classList.add("dark");
-      document.body.style.backgroundColor = "#1A1A1A";
-      document.body.style.color = "#FFFFFF";
+      document.body.style.backgroundColor = "#1C1C1C";
+      document.body.style.color = "#FAFAFA";
     } else {
       document.documentElement.classList.remove("dark");
       document.body.style.backgroundColor = "#FAFAFA";
-      document.body.style.color = "#333333";
+      document.body.style.color = "#1C1C1C";
     }
   }, [isDarkMode]);
 
