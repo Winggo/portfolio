@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -23,7 +23,8 @@
   }
 
   body {
-    @apply bg-background text-foreground font-['Inter',sans-serif];
+    @apply bg-background text-foreground font-['Manrope',sans-serif];
+    font-weight: 500;
   }
 }
 
@@ -37,9 +38,9 @@
   margin-bottom: 1rem;
 }
 
-.page-section {
+.container {
   opacity: 0;
-  animation: fadeIn 0.5s forwards;
+  animation: fadeIn 2s ease-out forwards;
 }
 
 @keyframes fadeIn {
