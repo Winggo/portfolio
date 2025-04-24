@@ -18,7 +18,7 @@ export const ThemeProvider = ({ children }: { children: ReactNode }) => {
       document.body.style.color = "#FFFFFF";
     } else {
       document.documentElement.classList.remove("dark");
-      document.body.style.backgroundColor = "#F5F5F5";
+      document.body.style.backgroundColor = "#FAFAFA";
       document.body.style.color = "#333333";
     }
   }, [isDarkMode]);
