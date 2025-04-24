@@ -53,7 +53,7 @@ const Portfolio = () => {
             or say hi at <a href="mailto:winggo.tse@gmail.com" className="hover:underline">winggo.tse@gmail.com</a>.
           </p>
           
-          <History title="PREVIOUSLY" entries={workHistory} />
+          <History title="WORK" entries={workHistory} />
           <History title="PROJECTS" entries={projects} />
         </div>
       </div>
