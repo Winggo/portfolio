@@ -25,12 +25,12 @@ const Portfolio = () => {
 
   return (
     <div className="container mx-auto max-w-2xl px-6 py-16 min-h-screen bg-[#F5F5F5] dark:bg-[#1A1A1A] text-[#333333] dark:text-[#FFFFFF]">
-      <div className="flex">
-        <div className="mr-16">
+      <div className="flex items-start">
+        <div className="mr-16 pt-0.5">
           <ThemeToggle />
         </div>
         
-        <div className="page-section flex-1">
+        <div className="page-section w-4/5">
           <h1 className="text-base font-medium mb-4">Hi, I'm Maddie.</h1>
           
           <p className="text-sm mb-6">
