@@ -7,14 +7,19 @@ export default defineConfig({
   plugins: [
     react(),
     runtimeErrorOverlay(),
-    ...(process.env.NODE_ENV !== "production" &&
-    process.env.REPL_ID !== undefined
-      ? [
-          await import("@replit/vite-plugin-cartographer").then((m) =>
-            m.cartographer(),
-          ),
-        ]
-      : []),
+    {
+      name: 'strip-type-module-in-prod',
+      transformIndexHtml(html) {
+        // Only transform in production build
+        if (process.env.NODE_ENV === 'production') {
+          return html
+            .replace(/type="module"/g, '')      // remove type="module"
+            .replace(/crossorigin/g, '')        // optionally remove crossorigin
+            .replace(/<script(.*?)>/g, '<script$1 defer>'); // add defer to script
+        }
+        return html;
+      },
+    },
   ],
   resolve: {
     alias: {
@@ -25,7 +30,8 @@ export default defineConfig({
   },
   root: path.resolve(import.meta.dirname, "client"),
   build: {
-    outDir: path.resolve(import.meta.dirname, "dist/public"),
+    outDir: path.resolve(import.meta.dirname, "docs"),
     emptyOutDir: true,
   },
+  base: './',
 });
