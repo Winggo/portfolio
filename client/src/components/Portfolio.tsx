@@ -50,7 +50,7 @@ const Portfolio = () => {
           
           <p className="text-md mb-12">
             Keep up with me on <a href="https://instagram.com/winggotse" target="_blank" rel="noopener noreferrer" className="hover:underline">Instagram</a>,
-            or say hi at <a href="mailto:winggo.tse@gmail.com" className="hover:underline">winggo.tse@gmail.com</a>.
+            or say hi at <a href="mailto:winggo.tse@gmail.com" target="_blank" className="hover:underline">winggo.tse@gmail.com</a>.
           </p>
           
           <History title="WORK" entries={workHistory} />
