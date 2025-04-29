@@ -26,7 +26,11 @@ const Portfolio = () => {
   const projects = [
     {
       title: <a href="https://polylogue.dev" target="_blank" rel="noopener" className="hover:underline">Polylogue</a>,
-      description: "Visualize & engage in non-linear dialogue with LLMs"
+      longDescription: "Visualize & engage in non-linear dialogue with LLMs"
+    },
+    {
+      title: "Memex (in progress)",
+      longDescription: "A personal LLM leveraging my corpus as its knowledge base"
     }
   ]
 
@@ -45,11 +49,11 @@ const Portfolio = () => {
           </p>
 
           <p className="text-md mb-6">
-            I live in San Francisco by way of Santa Cruz. Born in Hong Kong.
+            I live in San Francisco by way of Santa Cruz.
           </p>
           
           <p className="text-md mb-12">
-            Keep up with me on <a href="https://instagram.com/winggotse" target="_blank" rel="noopener noreferrer" className="hover:underline">Instagram</a>,
+            Keep up with me on <a href="https://instagram.com/winggotse" target="_blank" rel="noopener noreferrer" className="hover:underline">Instagram</a>, <a href="https://linkedin.com/in/winggo" target="_blank" rel="noopener noreferrer" className="hover:underline">LinkedIn</a>,
             or say hi at <a href="mailto:winggo.tse@gmail.com" target="_blank" className="hover:underline">winggo.tse@gmail.com</a>.
           </p>
           
