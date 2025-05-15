@@ -29,7 +29,7 @@ const Portfolio = () => {
       longDescription: "Visualize & engage in non-linear dialogue with LLMs"
     },
     {
-      title: "Memex (in progress)",
+      title: <a href="https://github.com/winggo/memex" target="_blank" rel="noopener" className="hover:underline">Memex (in progress)</a>,
       longDescription: "A personal LLM leveraging my corpus as its knowledge base"
     }
   ]
