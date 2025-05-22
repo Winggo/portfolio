@@ -43,16 +43,26 @@ const Portfolio = () => {
         
         <div className="page-section">
           <h1 className="text-2xl font-semibold mb-10">Hi, I'm Winggo.</h1>
+
+          <p className="text-sm mb-6 italic text-[#6B6B6B] dark:text-[#A0A0A0]">
+            life is 10x better when you're out there building something
+          </p>
           
-          <p className="text-md mb-6">
-            I've been developing software at startups and enterprise tech for {workDuration}.
+          <p className="text-base mb-6">
+            I've been building software at startups and enterprise tech for {workDuration}.
           </p>
 
-          <p className="text-md mb-6">
-            I live in San Francisco by way of Santa Cruz.
+          <p className="text-base mb-6">
+            In my spare time, I dabble in side projects, learn about emerging tech, and continuously read.
+          </p>
+
+          <p className="text-base mb-6">I currently live in San Francisco.</p>
+
+          <p className="text-base mb-6">
+            My favorite book is Pachinko, and my latest camera is the Fuji x100.
           </p>
           
-          <p className="text-md mb-12">
+          <p className="text-base mb-12">
             Keep up with me on <a href="https://instagram.com/winggotse" target="_blank" rel="noopener noreferrer" className="hover:underline">Instagram</a>, <a href="https://linkedin.com/in/winggo" target="_blank" rel="noopener noreferrer" className="hover:underline">LinkedIn</a>,
             or say hi at <a href="mailto:winggo.tse@gmail.com" target="_blank" className="hover:underline">winggo.tse@gmail.com</a>.
           </p>
