@@ -2,6 +2,9 @@
 
 ![Front page](./assets/preview.png)
 
+## Development
+1. Run `npm run dev`
+
 ## Deploy
 
 1. Run `npm run build`

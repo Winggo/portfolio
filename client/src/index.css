@@ -32,7 +32,7 @@
   opacity: 0;
   animation: fadeIn 2s ease-out forwards;
 
-  max-width: 42rem /* 672px */;
+  max-width: 50rem /* 800px */;
   min-height: 100vh;
 
   margin-left: auto;

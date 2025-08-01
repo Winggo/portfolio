@@ -12,11 +12,6 @@ const Portfolio = () => {
       period: "2024-2025"
     },
     {
-      title: <a href="https://scale.com" target="_blank" rel="noopener noreferrer" className="hover:underline">Scale AI</a>,
-      description: "AI Training Engineer",
-      period: "2024"
-    },
-    {
       title: <a href="https://useanvil.com" target="_blank" rel="noopener noreferrer" className="hover:underline">Anvil</a>,
       description: "Software Engineer",
       period: "2020-2023"
@@ -26,11 +21,11 @@ const Portfolio = () => {
   const projects = [
     {
       title: <a href="https://polylogue.dev" target="_blank" rel="noopener" className="hover:underline">Polylogue</a>,
-      longDescription: "Visualize & engage in non-linear dialogue with LLMs"
+      longDescription: "LLM-powered collaborative whiteboard to branch and visualize AI conversations as an interactive tree"
     },
     {
       title: <a href="https://github.com/winggo/memex" target="_blank" rel="noopener" className="hover:underline">Memex (in progress)</a>,
-      longDescription: "A personal LLM leveraging my corpus as its knowledge base"
+      longDescription: "Retrieval-augmented personal chatbot by vectorizing my data (notes, contacts) and integrating open-source LLMs with iMessage for real-time Q&A"
     }
   ]
 
@@ -59,7 +54,7 @@ const Portfolio = () => {
           <p className="text-base mb-6">I currently live in San Francisco.</p>
 
           <p className="text-base mb-6">
-            My favorite book is Pachinko, and my latest camera is the Fuji x100.
+            My favorite book is Pachinko, and my latest camera is the Fuji x100vi.
           </p>
           
           <p className="text-base mb-12">
