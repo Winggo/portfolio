@@ -28,8 +28,8 @@ const Portfolio = () => {
       longDescription: "Retrieval-augmented personal chatbot by vectorizing my data (notes, contacts) and integrating open-source LLMs with iMessage for real-time Q&A"
     },
     {
-      title: "TRMOU",
-      longDescription: "A public digital wall for anyone to share photos & memories anonymously",
+      title: <a href="https://thisremindedme.com" target="_blank" rel="noopener" className="hover:underline">this reminded me of u</a>,
+      longDescription: "A digital photo wall for anyone to share photos & memories anonymously",
     },
     {
       title: <i><br />more to come...</i>,
