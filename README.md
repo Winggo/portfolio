@@ -1,4 +1,4 @@
-# Simple personal portfolio
+# My Portfolio
 
 ![Front page](./assets/preview.png)
 
@@ -6,7 +6,6 @@
 1. Run `npm run dev`
 
 ## Deploy
-
 1. Run `npm run build`
 2. Push changes to repo `main` branch
 3. Changes are automatically deployed to Github pages

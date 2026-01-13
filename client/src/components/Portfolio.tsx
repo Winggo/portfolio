@@ -21,7 +21,7 @@ const Portfolio = () => {
 
   const projects = [
     {
-      title: <a href="https://polylogue.dev" target="_blank" rel="noopener" className="hover:underline">polylogueLM</a>,
+      title: <a href="https://polylogue.dev" target="_blank" rel="noopener" className="hover:underline">PolylogueLM</a>,
       description: "Figma-like app for building LLM conversation trees, for visualization of branching multi-model conversations"
     },
     {
