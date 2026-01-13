@@ -30,7 +30,7 @@
 
 .container {
   opacity: 0;
-  animation: fadeIn 2s ease-out forwards;
+  animation: fadeIn 1s ease-out forwards;
 
   max-width: 50rem /* 800px */;
   min-height: 100vh;
