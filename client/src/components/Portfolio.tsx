@@ -70,7 +70,7 @@ const Portfolio = () => {
             <br />
             • Flashlight - Susan Choi
             <br />
-            • The Remains of The Day - Kazuo Ishiguro
+            • The Remains of the Day - Kazuo Ishiguro
             <br />
             • The Elephant Vanishes - Haruki Murakami
           </p>
