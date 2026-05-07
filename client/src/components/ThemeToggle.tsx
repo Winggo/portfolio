@@ -4,7 +4,7 @@ const ThemeToggle = () => {
   const { isDarkMode, toggleTheme } = useTheme();
 
   return (
-    <div>
+    <div className="mt-[2px]">
       {!isDarkMode ? (
         <div 
           onClick={toggleTheme}

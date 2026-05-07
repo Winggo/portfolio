@@ -8,6 +8,11 @@ const Portfolio = () => {
   
   const workHistory = [
     {
+      title: <a href="https://artosai.com" target="_blank" rel="noopener noreferrer" className="hover:underline">Artos AI</a>,
+      description: "Software Engineer",
+      period: "2026-present"
+    },
+    {
       title: <a href="https://netapp.com" target="_blank" rel="noopener noreferrer" className="hover:underline">NetApp</a>,
       description: "Software Engineer",
       period: "2024-2025"
@@ -33,10 +38,6 @@ const Portfolio = () => {
       description: "Public photo wall for anyone to share photos that reminded them of someone",
     },
     {
-      title: <a href="https://navigate-visa.vercel.app/" target="_blank" rel="noopener" className="hover:underline">Visa Navigator</a>,
-      description: "Use AI to navigate through the complex US visa application process",
-    },
-    {
       title: <i>more to come...</i>,
     },
   ]
@@ -52,21 +53,21 @@ const Portfolio = () => {
           <h1 className="text-2xl font-semibold mb-10">Hi, I'm Winggo.</h1>
 
           <p className="text-sm mb-6 italic text-[#6B6B6B] dark:text-[#A0A0A0]">
-            life is 10x better when you're creating something
+            life is 10x better when you're building something
           </p>
           <p className="text-base mb-6">
             I've been building software at startups and enterprise tech for {workDuration}.
           </p>
           <p className="text-base mb-6">
-            I've worked primarily on backend & full-stack, but am currently focusing on integrating LLMs into applications.
+            I'm currently working on applied AI in the biopharma space.
           </p>
           <p className="text-base mb-6">
-            In my spare time, I dabble in side projects, learn about emerging tech, and continuously read.
+            In my spare time, I dabble in side projects, research emerging tech, and read fiction.
           </p>
-          <p className="text-base mb-6">
+          <p className="text-base mb-6 leading-[calc(1em+10px)]">
             My reading list for {new Date().getFullYear()}:
             <br />
-            • Exhalation - Ted Chiang
+            • The Piano Teacher - Janice Y. K. Lee
             <br />
             • Flashlight - Susan Choi
             <br />
